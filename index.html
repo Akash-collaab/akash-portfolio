@@ -1,35 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Akash Gupta | Full-Stack Developer Portfolio</title>
-    <meta
-      name="description"
-      content="Portfolio of Akash Gupta, an aspiring AI Engineer and full-stack developer skilled in MERN, .NET, PHP, and Java. View projects, certifications, resume, and contact info."
-    />
-    <meta
-      name="keywords"
-      content="Akash Gupta, Full Stack Developer, ASP.NET, Java, MERN, PHP, AI, Portfolio"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akash Gupta | Full-Stack AI Engineer</title>
 
-    <meta name="author" content="Akash Gupta" />
-    <meta property="og:title" content="Akash Gupta Portfolio" />
-    <meta
-      property="og:description"
-      content="Explore Akash's fullstack projects, skills, and resume."
-    />
-    <meta
-      property="og:image"
-      content="https://akash-collaab.github.io/akash-portfolio/preview.png"
-    />
-    <meta
-      property="og:url"
-      content="https://akash-collaab.github.io/akash-portfolio/"
-    />
-    <meta name="twitter:card" content="summary_large_image" />
-    <script type="module" crossorigin src="/akash-portfolio/assets/index-BW0ty70f.js"></script>
-    <link rel="stylesheet" crossorigin href="/akash-portfolio/assets/index-DscjKKw6.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="logo">Akash</div>
+    <ul class="nav-links">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li>
+        <a href="Akash_Gupta_Resume.pdf" download class="resume-btn">
+          <i class="fa-solid fa-download"></i> Resume
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-left">
+      <span class="badge">● Available for Work</span>
+      <h1>
+        Full-Stack <span class="gradient-text">AI Engineer</span>
+      </h1>
+      <p>
+        I build scalable AI systems, high-performance web apps,
+        and intelligent automation pipelines.
+      </p>
+    </div>
+
+    <div class="hero-right">
+      <div class="terminal">
+        <div class="terminal-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <div class="terminal-body">
+          <p id="terminal-text"></p>
+          <span class="cursor">|</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="grid-3">
+      <div class="card">AI / Machine Learning</div>
+      <div class="card">Full-Stack Development</div>
+      <div class="card">System Design</div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="grid-3">
+      <div class="card project">AI Interview Platform</div>
+      <div class="card project">Smart Call Analytics</div>
+      <div class="card project">Automation Dashboard</div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
 </html>
