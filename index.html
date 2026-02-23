@@ -2,82 +2,128 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Akash Gupta | Full-Stack AI Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Akash Gupta | Software Developer</title>
 
-  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-  <!-- FontAwesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-  <!-- ===== NAVBAR ===== -->
-  <nav class="navbar" id="navbar">
-    <div class="logo">Akash</div>
-    <ul class="nav-links">
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li>
-        <a href="assets/AKASH-GUPTA-RESUME (1).pdf" download class="resume-btn">
-          <i class="fa-solid fa-download"></i> Resume
-        </a>
-      </li>
-    </ul>
-  </nav>
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+  <div class="logo">Akash Gupta</div>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li>
+      <a href="AKASH-GUPTA-RESUME (1).pdf" download class="resume-btn magnetic">
+        Download Resume
+      </a>
+    </li>
+  </ul>
+</nav>
 
-  <!-- ===== HERO ===== -->
-  <section class="hero">
-    <div class="hero-left">
-      <span class="badge">● Available for Work</span>
-      <h1>
-        Full-Stack <span class="gradient-text">AI Engineer</span>
-      </h1>
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-left reveal">
+    <span class="badge">● Software Developer | Lecturer</span>
+
+    <h1>
+      Building Scalable <span class="gradient-text">Full-Stack Systems</span>
+    </h1>
+
+    <p>
+      Software Developer with hands-on experience in ASP.NET, MERN stack,
+      and Android development. Focused on building performant systems,
+      clean architectures, and real-world scalable solutions.
+    </p>
+
+    <button class="cta magnetic">Available for Opportunities</button>
+  </div>
+
+  <div class="hero-right reveal">
+    <div class="terminal">
+      <div class="terminal-header">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+      <div class="terminal-body">
+        <p id="terminal-text"></p>
+        <span class="cursor">|</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="section">
+  <h2 class="reveal">Technical Skills</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill reveal">
+      <p>React / JavaScript</p>
+      <div class="skill-bar"><span style="width:90%"></span></div>
+    </div>
+
+    <div class="skill reveal">
+      <p>ASP.NET MVC/Core</p>
+      <div class="skill-bar"><span style="width:88%"></span></div>
+    </div>
+
+    <div class="skill reveal">
+      <p>Node.js / Express</p>
+      <div class="skill-bar"><span style="width:85%"></span></div>
+    </div>
+
+    <div class="skill reveal">
+      <p>SQL Server / MySQL</p>
+      <div class="skill-bar"><span style="width:87%"></span></div>
+    </div>
+
+    <div class="skill reveal">
+      <p>Android (Java)</p>
+      <div class="skill-bar"><span style="width:82%"></span></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="section">
+  <h2 class="reveal">Key Projects</h2>
+
+  <div class="grid-3">
+
+    <div class="card project reveal">
+      <h3>Call Logger App</h3>
       <p>
-        I build scalable AI systems, high-performance web apps,
-        and intelligent automation pipelines.
+        Android app processing 200+ daily call logs with
+        real-time categorization and 95% accuracy.
       </p>
     </div>
 
-    <div class="hero-right">
-      <div class="terminal">
-        <div class="terminal-header">
-          <span class="dot red"></span>
-          <span class="dot yellow"></span>
-          <span class="dot green"></span>
-        </div>
-        <div class="terminal-body">
-          <p id="terminal-text"></p>
-          <span class="cursor">|</span>
-        </div>
-      </div>
+    <div class="card project reveal">
+      <h3>MEN Blog App</h3>
+      <p>
+        MERN full-stack blog platform serving 50+ users
+        with REST APIs and responsive UI.
+      </p>
     </div>
-  </section>
 
-  <!-- ===== SKILLS ===== -->
-  <section id="skills" class="section">
-    <h2>Skills</h2>
-    <div class="grid-3">
-      <div class="card">AI / Machine Learning</div>
-      <div class="card">Full-Stack Development</div>
-      <div class="card">System Design</div>
+    <div class="card project reveal">
+      <h3>CRUD with Dapper</h3>
+      <p>
+        ASP.NET Core system improving data access
+        speed by 40% using micro-ORM.
+      </p>
     </div>
-  </section>
 
-  <!-- ===== PROJECTS ===== -->
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="grid-3">
-      <div class="card project">AI Interview Platform</div>
-      <div class="card project">Smart Call Analytics</div>
-      <div class="card project">Automation Dashboard</div>
-    </div>
-  </section>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
